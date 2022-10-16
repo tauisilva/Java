@@ -63,7 +63,7 @@ public class ContatoServicos {
         }
     }
 
-    public List<Contato> getALL() {
+    public static List<Contato> getALL() {
         Connection conn = ConexaoBD.getConexao(); // conexão com o banco de dados
         List<Contato> lista = new ArrayList<Contato>();
         try {
